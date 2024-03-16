@@ -14,12 +14,6 @@ struct MulOp{T,N}
     output::Tensor{T,N}
 end
 
-struct CuMulOp{T,N}
-    input_a::CuArray{T,N}
-    input_b::CuArray{T,N}
-    output::CuArray{T,N}
-end
-
 function mul(input_a::Tensor{T,N}, input_b::Tensor{T,N}) where {T,N}
     @assert size(input_a.value) == size(input_b.value)
     @assert input_a.graph == input_b.graph

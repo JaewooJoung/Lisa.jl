@@ -1,7 +1,7 @@
 name = "Lisa"
 uuid = "2c37a092-a2e4-49c2-922a-f6c523de8a40"
 authors = ["Jaewoo Joung <jaewoo.joung@outlook.com>"]
-version = "0.1.1"
+version = "0.0.1"
 
 [deps]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"

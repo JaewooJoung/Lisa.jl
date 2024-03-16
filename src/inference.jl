@@ -267,7 +267,7 @@ function sample(
         max_seq_len = typemax(Int),
         bos_token = true,
     )
-    generated_text = "Lía: \n-------\n"
+    generated_text = "Lísa: \n-------\n"
     if !bos_token && isempty(prompt)
         error("Prompt cannot be empty if bos_token = false")
     end

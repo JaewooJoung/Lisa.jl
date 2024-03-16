@@ -2,11 +2,11 @@ struct Graph
     operations::Vector{Any}
 end
 
-struct Tensor{T,N}
+#=struct Tensor{T,N}
     value::Array{T,N}
     grad::Array{T,N}
     graph::Graph
-end
+end=#
 
 struct MulOp{T,N}
     input_a::Tensor{T,N}
